@@ -6,3 +6,5 @@ LeetCode（力扣）算法编程
 * findMedianSortedArrays.py：寻找两个正序数组的中位数  
 * longestPalindrome.py：最长回文子串 
 * LRUCache.py：LRU缓存机制
+* reverseList.py：反转链表
+* trap.py：接雨水
