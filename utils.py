@@ -1,4 +1,7 @@
 # -*- coding: utf-8 -*-
+from typing import List
+
+
 # Definition for singly-linked list.
 class ListNode:
     def __init__(self, x):
@@ -6,7 +9,7 @@ class ListNode:
         self.next = None
 
 
-def generateList(l: list) -> ListNode:
+def generateList(l: List[int]) -> ListNode:
     """
     由list来构造链表
     :param l:
