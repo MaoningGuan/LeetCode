@@ -19,3 +19,4 @@ LeetCode（力扣）算法编程
 17. mergesort.py：归并排序
 18. mergesort.py：15. 三数之和
 19. utils.py：功能函数
+20. decodeString.py：394. 字符串解码
