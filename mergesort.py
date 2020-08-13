@@ -1,4 +1,10 @@
 # -*- coding: utf-8 -*-
+"""
+归并排序
+时间复杂度：o(nlogn)
+"""
+
+
 def mergesort(seq):
     """
     归并排序

@@ -16,3 +16,6 @@ LeetCode（力扣）算法编程
 14. mergeKLists.py：23. 合并K个排序链表
 15. mergeTwoLists.py：21. 合并两个有序链表
 16. minMeetingRooms.py：253. 会议室 II
+17. mergesort.py：归并排序
+18. mergesort.py：15. 三数之和
+19. utils.py：功能函数
