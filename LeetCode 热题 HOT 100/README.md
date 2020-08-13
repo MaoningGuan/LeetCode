@@ -1,5 +1,4 @@
-# LeetCode
-LeetCode（力扣）算法编程
+# LeetCode 热题 HOT 100
 1. twoSum.py：1. 两数之和
 2. addTwoNumbers.py：2. 两数相加
 3. lengthOfLongestSubstring.py：3. 无重复字符的最长子串
