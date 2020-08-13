@@ -21,3 +21,4 @@ LeetCode（力扣）算法编程
 19. utils.py：功能函数
 20. decodeString.py：394. 字符串解码
 21. maxProfit.py：309. 最佳买卖股票时机含冷冻期
+22. merge.py：56. 合并区间
