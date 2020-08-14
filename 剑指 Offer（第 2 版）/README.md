@@ -5,3 +5,4 @@
 4. reverseList.py：剑指 Offer 24. 反转链表
 5. permutation.py：剑指 Offer 38. 字符串的排列
 6. findRepeatNumber.py：剑指 Offer 03. 数组中重复的数字
+7. singleNumbers.py：剑指 Offer 56 - I. 数组中数字出现的次数
