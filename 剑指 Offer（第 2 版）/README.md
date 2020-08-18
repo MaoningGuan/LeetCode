@@ -6,3 +6,4 @@
 5. permutation.py：剑指 Offer 38. 字符串的排列
 6. findRepeatNumber.py：剑指 Offer 03. 数组中重复的数字
 7. singleNumbers.py：剑指 Offer 56 - I. 数组中数字出现的次数
+8. CQueue.py：剑指 Offer 09. 用两个栈实现队列
