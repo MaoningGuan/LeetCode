@@ -8,4 +8,4 @@
 7. singleNumbers.py：剑指 Offer 56 - I. 数组中数字出现的次数
 8. CQueue.py：剑指 Offer 09. 用两个栈实现队列
 9. spiralOrder.py：剑指 Offer 29. 顺时针打印矩阵
-10. translateNum.py：剑指 Offer 46. 把数字翻译成字符串
+10. translateNum.py：剑指 Offer 46. 把数字翻译成字符串 
