@@ -15,3 +15,4 @@
 14. mergeTwoLists.py：剑指 Offer 25. 合并两个排序的链表
 15. lengthOfLongestSubstring.py：剑指 Offer 48. 最长不含重复字符的子字符串
 16. numWays.py：剑指 Offer 10- II. 青蛙跳台阶问题
+17. maxSubArray.py：剑指 Offer 42. 连续子数组的最大和
