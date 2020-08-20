@@ -11,3 +11,4 @@
 10. translateNum.py：剑指 Offer 46. 把数字翻译成字符串 
 11. movingCount.py：剑指 Offer 13. 机器人的运动范围
 12. findContinuousSequence.py：剑指 Offer 57 - II. 和为s的连续正数序列
+13. getLeastNumbers.py：剑指 Offer 40. 最小的k个数
