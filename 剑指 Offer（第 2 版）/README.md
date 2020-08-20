@@ -12,3 +12,4 @@
 11. movingCount.py：剑指 Offer 13. 机器人的运动范围
 12. findContinuousSequence.py：剑指 Offer 57 - II. 和为s的连续正数序列
 13. getLeastNumbers.py：剑指 Offer 40. 最小的k个数
+14. mergeTwoLists.py：剑指 Offer 25. 合并两个排序的链表
