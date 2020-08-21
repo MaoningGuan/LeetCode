@@ -23,6 +23,14 @@ class ListNode:
 
 class Solution:
     def getKthFromEnd(self, head: ListNode, k: int) -> ListNode:
+        """
+        双指针
+        时间复杂度 O(N)： N 为链表长度；总体看， former 走了 N 步， latter 走了 (N−k) 步。
+        空间复杂度 O(1)： 双指针 former , latter 使用常数大小的额外空间。
+        :param head:
+        :param k:
+        :return:
+        """
         former, latter = head, head
         for _ in range(k):
             if not former: return
