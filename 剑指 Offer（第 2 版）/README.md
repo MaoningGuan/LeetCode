@@ -18,3 +18,4 @@
 17. maxSubArray.py：剑指 Offer 42. 连续子数组的最大和
 18. twoSum.py：剑指 Offer 60. n个骰子的点数
 19. sumNums.py：剑指 Offer 64. 求1+2+…+n
+20. getKthFromEnd.py：剑指 Offer 22. 链表中倒数第k个节点
