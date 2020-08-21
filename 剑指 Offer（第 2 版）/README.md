@@ -20,3 +20,4 @@
 19. sumNums.py：剑指 Offer 64. 求1+2+…+n
 20. getKthFromEnd.py：剑指 Offer 22. 链表中倒数第k个节点
 21. buildTree.py：剑指 Offer 07. 重建二叉树
+22. serialize_deserialize.py：剑指 Offer 37. 序列化二叉树 （包含二叉树的序列化和反序列化）
