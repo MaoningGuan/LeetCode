@@ -26,6 +26,7 @@ from typing import List
 class Solution:
     def twoSum_1(self, n: int) -> List[float]:
         """
+        动态规划
         迭代
         :param n:
         :return:
@@ -45,6 +46,7 @@ class Solution:
 
     def twoSum_2(self, n: int) -> List[float]:
         """
+        动态规划
         递归
         :param n:
         :return:
