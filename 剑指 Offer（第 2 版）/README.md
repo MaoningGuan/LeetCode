@@ -23,3 +23,4 @@
 22. serialize_deserialize.py：剑指 Offer 37. 序列化二叉树 （包含二叉树的序列化和反序列化）
 23. isMatch.py：剑指 Offer 19. 正则表达式匹配
 24. maxProfit.py：剑指 Offer 63. 股票的最大利润
+25. minArray.py：剑指 Offer 11. 旋转数组的最小数字
