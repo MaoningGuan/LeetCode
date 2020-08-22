@@ -26,3 +26,4 @@
 25. minArray.py：剑指 Offer 11. 旋转数组的最小数字
 26. pathSum.py：剑指 Offer 34. 二叉树中和为某一值的路径
 27. isNumber.py：剑指 Offer 20. 表示数值的字符串
+28. isStraight.py：剑指 Offer 61. 扑克牌中的顺子
