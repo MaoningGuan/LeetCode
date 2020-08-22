@@ -19,7 +19,7 @@ from typing import List
 class Solution:
     def minArray(self, numbers: List[int]) -> int:
         """
-        二分查找
+        二分查找（二分查找的平均时间复杂度为 O(logn)）
         时间复杂度：平均时间复杂度为 O(logn)，其中 n 是数组 numbers 的长度。
         如果数组是随机生成的，那么数组中包含相同元素的概率很低，在二分查找的过程中，大部分情况都会忽略一半的区间。
         而在最坏情况下，如果数组中的元素完全相同，那么 while 循环就需要执行 n 次，每次忽略区间的右端点，时间复杂度为 O(n)。
