@@ -24,14 +24,14 @@
 1 <= push_back,pop_front,max_value的总操作数 <= 10000
 1 <= value <= 10^5
 """
-import queue
+import collections
 
 
 class MaxQueue:
 
     def __init__(self):
-        self.deque = queue.deque()
-        self.queue = queue.Queue()
+        self.deque = collections.deque()
+        self.queue = collections.deque()
 
     def max_value(self) -> int:
         return self.deque[0] if self.deque else -1
@@ -40,12 +40,12 @@ class MaxQueue:
         while self.deque and self.deque[-1] < value:
             self.deque.pop()
         self.deque.append(value)
-        self.queue.put(value)
+        self.queue.append(value)
 
     def pop_front(self) -> int:
-        if not self.deque:  # self.queue的队尾会在self.deque的队尾，所以只需要判断self.deque是否为空 或者使用self.queue.empty()
+        if not self.queue:  # self.queue的队尾会在self.deque的队尾，所以只需要判断self.deque是否为空 或者使用not self.queue
             return -1
-        ans = self.queue.get()
+        ans = self.queue.popleft()
         if ans == self.deque[0]:
             self.deque.popleft()
         return ans
@@ -57,7 +57,10 @@ if __name__ == '__main__':
     obj.push_back(1)
     obj.push_back(2)
     print(obj.max_value())
+    print(len(obj.queue))
     print(obj.pop_front())
     print(obj.max_value())
+    print(len(obj.queue))
     print(obj.pop_front())
     print(obj.pop_front())
+    print(len(obj.deque))
