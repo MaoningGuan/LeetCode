@@ -28,3 +28,4 @@
 27. isNumber.py：剑指 Offer 20. 表示数值的字符串
 28. isStraight.py：剑指 Offer 61. 扑克牌中的顺子
 29. cuttingRope.py：剑指 Offer 14- I. 剪绳子
+30. add.py：剑指 Offer 65. 不用加减乘除做加法
