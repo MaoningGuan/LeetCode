@@ -32,3 +32,4 @@
 31. MinStack.py：剑指 Offer 30. 包含min函数的栈
 32. quickSort.py：快速排序
 33. minNumber.py：剑指 Offer 45. 把数组排成最小的数
+34. MaxQueue.py：剑指 Offer 59 - II. 队列的最大值
