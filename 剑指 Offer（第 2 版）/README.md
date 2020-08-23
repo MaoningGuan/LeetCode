@@ -29,3 +29,4 @@
 28. isStraight.py：剑指 Offer 61. 扑克牌中的顺子
 29. cuttingRope.py：剑指 Offer 14- I. 剪绳子
 30. add.py：剑指 Offer 65. 不用加减乘除做加法
+31. MinStack.py：剑指 Offer 30. 包含min函数的栈
