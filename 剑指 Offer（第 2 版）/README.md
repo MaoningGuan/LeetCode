@@ -36,3 +36,4 @@
 35. array_twoSum.py：剑指 Offer 57. 和为s的两个数字
 36. fib.py：剑指 Offer 10- I. 斐波那契数列
 37. MedianFinder.py：剑指 Offer 41. 数据流中的中位数
+38. reversePrint.py：剑指 Offer 06. 从尾到头打印链表
