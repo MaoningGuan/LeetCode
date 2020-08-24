@@ -39,3 +39,4 @@
 38. reversePrint.py：剑指 Offer 06. 从尾到头打印链表
 39. verifyPostorder.py：剑指 Offer 33. 二叉搜索树的后序遍历序列
 40. treeToDoublyList.py：剑指 Offer 36. 二叉搜索树与双向链表
+41. constructArr.py：剑指 Offer 66. 构建乘积数组
