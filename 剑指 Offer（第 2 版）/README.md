@@ -37,3 +37,4 @@
 36. fib.py：剑指 Offer 10- I. 斐波那契数列
 37. MedianFinder.py：剑指 Offer 41. 数据流中的中位数
 38. reversePrint.py：剑指 Offer 06. 从尾到头打印链表
+39. verifyPostorder.py：剑指 Offer 33. 二叉搜索树的后序遍历序列

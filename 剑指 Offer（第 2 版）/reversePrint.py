@@ -33,7 +33,7 @@ class Solution:
         while head:
             stack.append(head.val)
             head = head.next
-        # stack.reverse()
+        stack.reverse()
         # return stack
         return stack[::-1]
 
