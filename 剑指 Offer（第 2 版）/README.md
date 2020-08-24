@@ -34,3 +34,4 @@
 33. minNumber.py：剑指 Offer 45. 把数组排成最小的数
 34. MaxQueue.py：剑指 Offer 59 - II. 队列的最大值
 35. array_twoSum.py：剑指 Offer 57. 和为s的两个数字
+36. fib.py：剑指 Offer 10- I. 斐波那契数列
