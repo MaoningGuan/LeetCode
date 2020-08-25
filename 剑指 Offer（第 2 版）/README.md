@@ -45,3 +45,4 @@
 44. exchange.py：剑指 Offer 21. 调整数组顺序使奇数位于偶数前面
 45. maxSlidingWindow.py：剑指 Offer 59 - I. 滑动窗口的最大值
 46. nthUglyNumber.py：剑指 Offer 49. 丑数
+47. findNumberIn2DArray.py：剑指 Offer 04. 二维数组中的查找
