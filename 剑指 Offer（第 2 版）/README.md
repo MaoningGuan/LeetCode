@@ -41,3 +41,4 @@
 40. treeToDoublyList.py：剑指 Offer 36. 二叉搜索树与双向链表
 41. constructArr.py：剑指 Offer 66. 构建乘积数组
 42. replaceSpace.py：剑指 Offer 05. 替换空格
+43. countDigitOne.py：剑指 Offer 43. 1～n整数中1出现的次数
