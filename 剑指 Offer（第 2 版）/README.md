@@ -43,3 +43,4 @@
 42. replaceSpace.py：剑指 Offer 05. 替换空格
 43. countDigitOne.py：剑指 Offer 43. 1～n整数中1出现的次数
 44. exchange.py：剑指 Offer 21. 调整数组顺序使奇数位于偶数前面
+45. maxSlidingWindow.py：剑指 Offer 59 - I. 滑动窗口的最大值
