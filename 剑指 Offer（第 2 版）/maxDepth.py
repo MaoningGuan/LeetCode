@@ -34,7 +34,7 @@ class TreeNode:
 class Solution:
     def maxDepth_1(self, root: TreeNode) -> int:
         """
-        深度优先搜索后序遍历二叉树的各个节点（DFS）
+        深度优先搜索后序遍历二叉树的各个节点（DFS）来计算二叉树的深度
         时间复杂度 O(N) ： N 为树的节点数量，计算树的深度需要遍历所有节点。
         空间复杂度 O(N) ： 最差情况下（当树退化为链表时），递归深度可达到 N 。
         :param root:
@@ -45,7 +45,7 @@ class Solution:
 
     def maxDepth_2(self, root: TreeNode) -> int:
         """
-        广度优先搜索层次遍历二叉树的各个节点（BFS）
+        广度优先搜索层次遍历二叉树的各个节点（BFS）来计算二叉树的深度
         时间复杂度 O(N) ： N 为树的节点数量，计算树的深度需要遍历所有节点。
         空间复杂度 O(N) ： 最差情况下（当树平衡时），队列 queue 同时存储 N/2 个节点。
         :param root:
