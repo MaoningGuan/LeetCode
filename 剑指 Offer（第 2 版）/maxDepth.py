@@ -65,7 +65,7 @@ class Solution:
 
 if __name__ == '__main__':
     nodes = "[3,9,20,null,null,15,7]"
-    root = deserialize(nodes)
+    root = deserialize(nodes)  # 构造二叉树
 
     solution = Solution()
     print(solution.maxDepth_1(root))
