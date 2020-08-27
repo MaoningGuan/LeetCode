@@ -46,3 +46,4 @@
 45. maxSlidingWindow.py：剑指 Offer 59 - I. 滑动窗口的最大值
 46. nthUglyNumber.py：剑指 Offer 49. 丑数
 47. findNumberIn2DArray.py：剑指 Offer 04. 二维数组中的查找
+48. maxDepth.py：剑指 Offer 55 - I. 二叉树的深度
