@@ -48,3 +48,4 @@
 47. findNumberIn2DArray.py：剑指 Offer 04. 二维数组中的查找
 48. maxDepth.py：剑指 Offer 55 - I. 二叉树的深度
 49. firstUniqChar.py：剑指 Offer 50. 第一个只出现一次的字符
+50. exist.py：剑指 Offer 12. 矩阵中的路径
