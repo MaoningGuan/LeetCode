@@ -53,3 +53,4 @@
 52. kthLargest.py：剑指 Offer 54. 二叉搜索树的第k大节点
 53. copyRandomList.py：剑指 Offer 35. 复杂链表的复制
 54. levelOrder.py：剑指 Offer 32 - III. 从上到下打印二叉树 III
+55. getIntersectionNode.py：剑指 Offer 52. 两个链表的第一个公共节点
