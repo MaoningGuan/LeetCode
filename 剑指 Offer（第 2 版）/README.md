@@ -50,3 +50,4 @@
 49. firstUniqChar.py：剑指 Offer 50. 第一个只出现一次的字符
 50. exist.py：剑指 Offer 12. 矩阵中的路径
 51. majorityElement.py：剑指 Offer 39. 数组中出现次数超过一半的数字
+52. kthLargest.py：剑指 Offer 54. 二叉搜索树的第k大节点
