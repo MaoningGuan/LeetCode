@@ -55,6 +55,7 @@
 54. levelOrder.py：剑指 Offer 32 - III. 从上到下打印二叉树 III
 55. getIntersectionNode.py：剑指 Offer 52. 两个链表的第一个公共节点
 56. reverseWords.py：剑指 Offer 58 - I. 翻转单词顺序
+57. BinaryTreeTraverse.py：使用不同方式来遍历二叉树
 
 
 
