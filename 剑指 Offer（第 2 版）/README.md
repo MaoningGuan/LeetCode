@@ -57,6 +57,7 @@
 56. reverseWords.py：剑指 Offer 58 - I. 翻转单词顺序
 57. BinaryTreeTraverse.py：使用不同方式来遍历二叉树
 58. isSubStructure.py：剑指 Offer 26. 树的子结构
+59. levelOrder_I.py：剑指 Offer 32 - I. 从上到下打印二叉树
 
 
 
