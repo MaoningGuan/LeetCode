@@ -63,7 +63,7 @@
 62. validateStackSequences.py：剑指 Offer 31. 栈的压入、弹出序列
 63. reverseLeftWords.py：剑指 Offer 58 - II. 左旋转字符串
 64. maxValue.py：剑指 Offer 47. 礼物的最大价值
-
+65. missingNumber.py：剑指 Offer 53 - II. 0～n-1中缺失的数字
 
 
 
