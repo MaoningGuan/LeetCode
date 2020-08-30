@@ -61,6 +61,7 @@
 60. levelOrder_I.py：剑指 Offer 68 - II. 二叉树的最近公共祖先
 61. printNumbers.py：剑指 Offer 17. 打印从1到最大的n位数
 62. validateStackSequences.py：剑指 Offer 31. 栈的压入、弹出序列
+63. reverseLeftWords.py：剑指 Offer 58 - II. 左旋转字符串
 
 
 
