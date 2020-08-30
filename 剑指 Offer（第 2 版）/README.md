@@ -64,6 +64,7 @@
 63. reverseLeftWords.py：剑指 Offer 58 - II. 左旋转字符串
 64. maxValue.py：剑指 Offer 47. 礼物的最大价值
 65. missingNumber.py：剑指 Offer 53 - II. 0～n-1中缺失的数字
+66. strToInt.py：剑指 Offer 67. 把字符串转换成整数
 
 
 
