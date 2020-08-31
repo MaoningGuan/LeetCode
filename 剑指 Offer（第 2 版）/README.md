@@ -70,6 +70,7 @@
 69. singleNumber.py：剑指 Offer 56 - II. 数组中数字出现的次数 II
 70. search.py：剑指 Offer 53 - I. 在排序数组中查找数字 I
 71. findNthDigit.py：剑指 Offer 44. 数字序列中某一位的数字
+72. levelOrder_II.py：剑指 Offer 32 - II. 从上到下打印二叉树 II
 
 
 
