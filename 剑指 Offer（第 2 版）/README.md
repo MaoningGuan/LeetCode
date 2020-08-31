@@ -66,6 +66,7 @@
 65. missingNumber.py：剑指 Offer 53 - II. 0～n-1中缺失的数字
 66. strToInt.py：剑指 Offer 67. 把字符串转换成整数
 67. mirrorTree.py：剑指 Offer 27. 二叉树的镜像
+68. lowestCommonAncestor_I：剑指 Offer 68 - I. 二叉搜索树的最近公共祖先
 
 
 
