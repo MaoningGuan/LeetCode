@@ -67,6 +67,7 @@
 66. strToInt.py：剑指 Offer 67. 把字符串转换成整数
 67. mirrorTree.py：剑指 Offer 27. 二叉树的镜像
 68. lowestCommonAncestor_I：剑指 Offer 68 - I. 二叉搜索树的最近公共祖先
+69. singleNumber.py：剑指 Offer 56 - II. 数组中数字出现的次数 II
 
 
 
