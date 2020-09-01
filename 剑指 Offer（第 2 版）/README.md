@@ -71,6 +71,7 @@
 70. search.py：剑指 Offer 53 - I. 在排序数组中查找数字 I
 71. findNthDigit.py：剑指 Offer 44. 数字序列中某一位的数字
 72. levelOrder_II.py：剑指 Offer 32 - II. 从上到下打印二叉树 II
+73. hammingWeight.py：剑指 Offer 15. 二进制中1的个数
 
 
 
