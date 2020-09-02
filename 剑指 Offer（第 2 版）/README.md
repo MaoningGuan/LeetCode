@@ -76,7 +76,7 @@
 75. isBalanced.py：剑指 Offer 55 - II. 平衡二叉树
 76. cuttingRope_II.py：剑指 Offer 14- II. 剪绳子 II
 77. myPow.py：剑指 Offer 16. 数值的整数次方
-
+78. isSymmetric.py：剑指 Offer 28. 对称的二叉树
 
 
 
