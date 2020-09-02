@@ -74,6 +74,7 @@
 73. hammingWeight.py：剑指 Offer 15. 二进制中1的个数
 74. deleteNode.py：剑指 Offer 18. 删除链表的节点
 75. isBalanced.py：剑指 Offer 55 - II. 平衡二叉树
+76. cuttingRope_II.py：剑指 Offer 14- II. 剪绳子 II
 
 
 
