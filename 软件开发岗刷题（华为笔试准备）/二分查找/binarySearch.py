@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-二分查找
+二分查找模板1
 """
 from typing import List
 
