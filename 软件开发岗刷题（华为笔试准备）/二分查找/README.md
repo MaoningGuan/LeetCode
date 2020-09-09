@@ -4,3 +4,4 @@
 3. guessNumber.py：猜数字游戏
 4. search.py：搜索旋转排序数组
 5. firstBadVersion.py：第一个错误的版本
+6. findPeakElement.py：寻找峰值
