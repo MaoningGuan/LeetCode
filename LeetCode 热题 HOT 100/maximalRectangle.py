@@ -98,5 +98,5 @@ if __name__ == '__main__':
     solution = Solution()
     matrix = [["1", "0", "1", "0", "0"], ["1", "0", "1", "1", "1"], ["1", "1", "1", "1", "1"],
               ["1", "0", "0", "1", "0"]]
-    print(solution.maximalRectangle_dp(matrix))
+    # print(solution.maximalRectangle_dp(matrix))
     print(solution.maximalRectangle(matrix))

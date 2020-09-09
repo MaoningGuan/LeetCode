@@ -52,6 +52,8 @@ class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         """
         hash解法，耗时最少
+        时间复杂度：O(N)
+        空间复杂度：O(N)
         :param nums:
         :param target:
         :return:
@@ -65,7 +67,7 @@ class Solution:
 
 if __name__ == '__main__':
     solution = Solution()
-    nums = [6, 4, 8, 2, 11, 15]
+    nums = [2, 7, 11, 15]
     target = 9
 
     index = solution.twoSum(nums, target)

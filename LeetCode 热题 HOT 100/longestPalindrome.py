@@ -52,6 +52,7 @@ class Solution:
         :param s:
         :return:
         """
+
         def expandAroundCenter(s, left, right):
             while left >= 0 and right < len(s) and s[left] == s[right]:
                 left -= 1
@@ -67,7 +68,6 @@ class Solution:
             if right2 - left2 > end - start:
                 start, end = left2, right2
         return s[start: end + 1]
-
 
 
 if __name__ == '__main__':

@@ -33,6 +33,8 @@ class Solution:
                 right += 1
             if len(occ) > ans:
                 ans = len(occ)
+            if right == n:
+                break
             occ.remove(s[left])
         return ans
 

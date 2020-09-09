@@ -44,9 +44,35 @@ class Solution:
         maxSquare = maxSide * maxSide
         return maxSquare
 
+    def maximalSquare_optimize(self, matrix: List[List[str]]) -> int:
+        """
+        方法二：动态规划
+        时间复杂度：O(mn)
+        空间复杂度：O(0)
+        :param matrix:
+        :return:
+        """
+        if len(matrix) == 0 or len(matrix[0]) == 0:
+            return 0
+
+        maxSide = 0
+        rows, columns = len(matrix), len(matrix[0])
+        for i in range(rows):
+            for j in range(columns):
+                if matrix[i][j] == '1':
+                    if i == 0 or j == 0:
+                        matrix[i][j] = 1
+                    else:
+                        matrix[i][j] = min(int(matrix[i - 1][j]), int(matrix[i][j - 1]), int(matrix[i - 1][j - 1])) + 1
+                    maxSide = max(maxSide, matrix[i][j])
+
+        maxSquare = maxSide * maxSide
+        return maxSquare
+
 
 if __name__ == '__main__':
     solution = Solution()
     matrix = [["1", "0", "1", "0", "0"], ["1", "0", "1", "1", "1"], ["1", "1", "1", "1", "1"],
               ["1", "0", "0", "1", "0"]]
     print(solution.maximalSquare(matrix))
+    print(solution.maximalSquare_optimize(matrix))

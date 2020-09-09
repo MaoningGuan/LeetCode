@@ -28,7 +28,7 @@ class ListNode:
 class Solution:
     def mergeKLists(self, lists: List[ListNode]) -> ListNode:
         """
-        优先级队列
+        优先级队列（最小堆）
         时间复杂度：O(n*log(k))，n是所有链表中元素的总和，k是链表个数。
         :param lists:
         :return:
@@ -54,6 +54,7 @@ class Solution:
     def mergeKLists_2(self, lists: List[ListNode]) -> ListNode:
         """
         分治法：链表两两合并
+        时间复杂度：O(n*log(k))
         :param lists:
         :return:
         """
