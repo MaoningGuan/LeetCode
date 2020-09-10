@@ -50,12 +50,18 @@ class TreeNode:
 
 class Solution:
     def isSymmetric(self, root: TreeNode) -> bool:
+        if not root:
+            return True
+
         def recur(L, R):
+            # 两个节点都为空
             if not L and not R: return True
+            # 两个节点中有一个为空或者两个节点的值不相等
             if not L or not R or L.val != R.val: return False
+            # 归的比较 left.left 和 right.right，递归比较 left.right 和 right.left
             return recur(L.left, R.right) and recur(L.right, R.left)
 
-        return recur(root.left, root.right) if root else True
+        return recur(root.left, root.right)
 
 
 if __name__ == '__main__':
