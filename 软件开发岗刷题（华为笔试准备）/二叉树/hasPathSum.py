@@ -68,5 +68,13 @@ class Solution:
             return False
         if not root.left and not root.right:
             return sum == root.val
-        return self.hasPathSum(root.left, sum - root.val) or self.hasPathSum(root.right, sum - root.val)
+        return self.hasPathSum_2(root.left, sum - root.val) or self.hasPathSum_2(root.right, sum - root.val)
 
+
+if __name__ == '__main__':
+    nodes = "[3,9,20,null,null,15,7]"
+    root = deserialize(nodes)  # 构造二叉树
+
+    solution = Solution()
+    print(solution.hasPathSum_1(root, 30))
+    print(solution.hasPathSum_2(root, 30))
