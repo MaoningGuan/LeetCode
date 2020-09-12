@@ -6,3 +6,4 @@
 5. numIslands_2.py：200. 岛屿数量（广度优先搜索）
 6. wallsAndGates.py：286. 墙与门
 7. openLock.py：752. 打开转盘锁
+8. numSquares.py：279. 完全平方数
