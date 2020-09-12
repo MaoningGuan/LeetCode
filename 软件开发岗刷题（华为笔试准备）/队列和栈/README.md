@@ -10,3 +10,4 @@
 9. MinStack_1.py：155. 最小栈（使用辅助栈）
 10. MinStack_2.py：155. 最小栈（不使用辅助栈）
 11. isValid.py：20. 有效的括号
+12. dailyTemperatures.py：739. 每日温度
