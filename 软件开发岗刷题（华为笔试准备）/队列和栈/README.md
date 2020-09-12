@@ -5,3 +5,4 @@
 4. numIslands_1.py：200. 岛屿数量（深度优先搜索）
 5. numIslands_2.py：200. 岛屿数量（广度优先搜索）
 6. wallsAndGates.py：286. 墙与门
+7. openLock.py：752. 打开转盘锁
