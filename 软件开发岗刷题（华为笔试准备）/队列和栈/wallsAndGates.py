@@ -33,6 +33,8 @@ class Solution(object):
 
     def wallsAndGates(self, rooms):
         """
+        时间复杂度： O(mn)
+        空间复杂度： O(mn)
         :type rooms: List[List[int]]
         :rtype: None Do not return anything, modify rooms in-place instead.
         """
