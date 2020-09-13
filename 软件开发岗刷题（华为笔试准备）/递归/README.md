@@ -4,3 +4,4 @@
 3. generate.py：118. 杨辉三角
 4. fib.py：509. 斐波那契数
 5. climbStairs.py：70. 爬楼梯
+6. myPow.py：50. Pow(x, n)
