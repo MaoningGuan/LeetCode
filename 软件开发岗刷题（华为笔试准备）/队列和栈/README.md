@@ -17,6 +17,3 @@
 16. findTargetSumWays.py：494. 目标和
 17. inorderTraversal.py：94. 二叉树的中序遍历（使用栈来迭代实现）
 18. MyQueue.py：232. 用栈实现队列
-19. reverseString.py：344. 反转字符串
-20. swapPairs.py：24. 两两交换链表中的节点
-21. generate.py：118. 杨辉三角
