@@ -13,7 +13,6 @@
 输出: 9534330
 说明: 输出结果可能非常大，所以你需要返回一个字符串而不是整数。
 """
-from typing import List
 
 
 class LargerNumKey(str):
