@@ -9,3 +9,4 @@
 8. isIsomorphic.py：205. 同构字符串
 9. findRestaurant.py：599. 两个列表的最小索引总和
 10. firstUniqChar.py：387. 字符串中的第一个唯一字符
+11. intersect.py：350. 两个数组的交集 II
