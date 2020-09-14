@@ -4,3 +4,4 @@
 3. MyHashMap.py：706. 设计哈希映射
 4. containsDuplicate.py：217. 存在重复元素
 5. singleNumber.py：136. 只出现一次的数字
+6. intersection.py：349. 两个数组的交集
