@@ -28,10 +28,17 @@ hashSet.contains(2);    // 返回  false (已经被删除)
 不要使用内建的哈希集合库。
 """
 
-
 # ===========方法二：使用二叉搜索树实现桶====================
-class MyHashSet(object):
+"""
+时间复杂度：O(log(N/K))。其中 N 指的是所有可能值数量，K 指的是预定义的桶数，也就是 769。
+假设值是平均分布的，因此可以考虑桶的平均大小是 O(N/K)。
+当我们遍历二叉搜索树时，使用二分查找，最后每个操作的时间复杂度是 O(log(N/K))。
 
+空间复杂度：O(K+M)，其中 K 指的是预定义的桶数，M 指的是已经插入到 HashSet 中值的数量。
+"""
+
+
+class MyHashSet(object):
     def __init__(self):
         """
         Initialize your data structure here.
