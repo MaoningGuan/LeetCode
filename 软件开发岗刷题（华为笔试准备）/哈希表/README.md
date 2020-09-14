@@ -3,3 +3,4 @@
 2. MyHashSet_2.py：705. 设计哈希集合（方法二：使用二叉搜索树实现桶）
 3. MyHashMap.py：706. 设计哈希映射
 4. containsDuplicate.py：217. 存在重复元素
+5. singleNumber.py：136. 只出现一次的数字
