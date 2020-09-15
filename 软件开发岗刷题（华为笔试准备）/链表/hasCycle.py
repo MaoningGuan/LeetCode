@@ -35,10 +35,10 @@
 你能用 O(1)（即，常量）内存解决此问题吗？
 """
 # Definition for singly-linked list.
-# class ListNode:
-#     def __init__(self, x):
-#         self.val = x
-#         self.next = None
+class ListNode:
+    def __init__(self, x):
+        self.val = x
+        self.next = None
 
 class Solution:
     def hasCycle(self, head: ListNode) -> bool:
