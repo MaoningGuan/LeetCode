@@ -5,3 +5,4 @@
 4. detectCycle.py：142. 环形链表 II
 5. getIntersectionNode.py：160. 相交链表
 6. removeNthFromEnd.py：19. 删除链表的倒数第N个节点
+7. reverseList.py：206. 反转链表
