@@ -3,3 +3,4 @@
 2. MyLinkedList_2.py：707. 设计链表（双链表）
 3. hasCycle.py：141. 环形链表
 4. detectCycle.py：142. 环形链表 II
+5. getIntersectionNode.py：160. 相交链表

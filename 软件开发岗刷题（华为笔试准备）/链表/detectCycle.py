@@ -28,11 +28,14 @@
 进阶：
 你是否可以不用额外空间解决此题？
 """
+
+
 class Solution(object):
     """
     时间复杂度：O(n)
     空间复杂度：O(1)
     """
+
     def getIntersect(self, head):
         tortoise = head
         hare = head
@@ -68,4 +71,3 @@ class Solution(object):
             ptr2 = ptr2.next
 
         return ptr1
-
