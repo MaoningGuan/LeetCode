@@ -46,7 +46,7 @@ class Solution:
             return False
         fastnode = head
         slownode = head
-        while (fastnode):
+        while fastnode:
             if fastnode.next and fastnode.next.next:
                 fastnode = fastnode.next.next
                 slownode = slownode.next
