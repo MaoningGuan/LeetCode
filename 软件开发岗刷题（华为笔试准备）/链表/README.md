@@ -8,3 +8,4 @@
 7. reverseList.py：206. 反转链表
 8. removeElements.py：203. 移除链表元素
 9. oddEvenList.py：328. 奇偶链表
+10. isPalindrome.py：234. 回文链表
