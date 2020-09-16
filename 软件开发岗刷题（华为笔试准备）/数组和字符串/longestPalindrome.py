@@ -13,6 +13,8 @@
 输入: "cbbd"
 输出: "bb"
 """
+
+
 class Solution:
     def longestPalindrome(self, s: str) -> str:
         n = len(s)
@@ -32,7 +34,7 @@ class Solution:
                 else:
                     dp[i][j] = (dp[i + 1][j - 1] and s[i] == s[j])
                 if dp[i][j] and l + 1 > len(ans):
-                    ans = s[i:j+1]
+                    ans = s[i:j + 1]
         return ans
 
 
