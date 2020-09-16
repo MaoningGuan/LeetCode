@@ -5,3 +5,4 @@
 4. rotate.py：面试题 01.07. 旋转矩阵
 5. setZeroes.py：面试题 01.08. 零矩阵
 6. findDiagonalOrder.py：498. 对角线遍历
+7. longestCommonPrefix.py：14. 最长公共前缀
