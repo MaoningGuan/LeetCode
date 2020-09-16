@@ -12,3 +12,4 @@
 11. reverseString.py：344. 反转字符串
 12. arrayPairSum.py：561. 数组拆分 I
 13. twoSum.py：167. 两数之和 II - 输入有序数组
+14. removeElement.py：27. 移除元素
