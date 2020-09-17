@@ -46,6 +46,7 @@ if __name__ == '__main__':
             min_cost += sorted_hashmap[i][1] * prices[j]
             j += 1
 
+
         print(min_cost, max_cost)
         # try:
         #     nm = input()  # 数据有很多空行
