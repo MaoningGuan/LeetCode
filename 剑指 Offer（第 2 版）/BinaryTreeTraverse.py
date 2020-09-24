@@ -124,6 +124,13 @@ def levelTraverse(root: TreeNode) -> List[int]:
 
 
 def levelOrder(root: TreeNode) -> List[List[int]]:
+    """
+    广度优先搜索（队列）——层次遍历：按层遍历二叉树
+    时间复杂度：O(N)
+    空间复杂度：O(N)
+    :param root:
+    :return:
+    """
     if not root:
         return []
 
