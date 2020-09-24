@@ -4,3 +4,4 @@
 3. buildTree_2.py：105. 从前序与中序遍历序列构造二叉树
 4. hasPathSum.py：112. 路径总和
 5. maxDepth.py：剑指 Offer 55 - I. 二叉树的深度
+6. buildTree_3.py：106. 从中序与后序遍历序列构造二叉树
