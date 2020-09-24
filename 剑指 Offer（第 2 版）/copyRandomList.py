@@ -68,10 +68,10 @@ class Solution:
             while queue:
                 tmp = queue.pop()
                 if tmp.next and tmp.next not in visited:
-                    visited[tmp.next] = Node(tmp.next.val, [], [])
+                    visited[tmp.next] = Node(tmp.next.val, None, None)
                     queue.append(tmp.next)
                 if tmp.random and tmp.random not in visited:
-                    visited[tmp.random] = Node(tmp.random.val, [], [])
+                    visited[tmp.random] = Node(tmp.random.val, None, None)
                     queue.append(tmp.random)
                 visited[tmp].next = visited.get(tmp.next)
                 visited[tmp].random = visited.get(tmp.random)

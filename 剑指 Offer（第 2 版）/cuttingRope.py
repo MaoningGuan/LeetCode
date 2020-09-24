@@ -17,8 +17,11 @@
 
 2 <= n <= 58
 """
+import math
+
+
 class Solution:
-    def cuttingRope(self, n: int) -> int:
+    def cuttingRope_1(self, n: int) -> int:
         """
         方法三：动态规划（自底向上）
         时间复杂度：O(N^2)
@@ -33,7 +36,19 @@ class Solution:
                 dp[i] = max(dp[i], max((i - j) * j, j * dp[i - j]))
         return dp[n]
 
+    def cuttingRope_2(self, n: int) -> int:
+        """
+        :param n:
+        :return:
+        """
+        if n <= 3: return n - 1
+        a, b = n // 3, n % 3
+        if b == 0: return int(math.pow(3, a))
+        if b == 1: return int(math.pow(3, a - 1) * 4)
+        return int(math.pow(3, a) * 2)
+
 
 if __name__ == '__main__':
     solution = Solution()
-    print(solution.cuttingRope(10))
+    print(solution.cuttingRope_1(10))
+    print(solution.cuttingRope_2(10))
