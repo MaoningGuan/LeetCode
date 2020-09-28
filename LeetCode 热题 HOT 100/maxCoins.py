@@ -22,10 +22,15 @@ from typing import List
 
 
 class Solution:
-    def maxCoins(self, nums: List[int]) -> int:
+    def maxCoins_1(self, nums: List[int]) -> int:
+        """
+        方法一：记忆化搜索
+        时间复杂度：O(n^3)，其中 n 是气球数量。区间数为 n^2，区间迭代复杂度为 O(n)，最终复杂度为 O(n^2 x n) = O(n^3)
+        空间复杂度：O(n^2)，其中 n 是气球数量。缓存大小为区间的个数。
+        :return:
+        """
         n = len(nums)
         val = [1] + nums + [1]
-
 
         def solve(left: int, right: int) -> int:
             if left >= right - 1:
@@ -41,9 +46,32 @@ class Solution:
 
         return solve(0, n + 1)
 
+    def maxCoins_2(self, nums: List[int]) -> int:
+        """
+        方法二：动态规划
+        时间复杂度：O(n^3)，其中 n 是气球数量。状态数为 n^2，状态转移复杂度为 O(n)，最终复杂度为 O(n^2 x n) = O(n^3)
+        空间复杂度：O(n^2)，其中 n 是气球数量。缓存大小为区间的个数。
+        :param nums:
+        :return:
+        """
+        n = len(nums)
+        rec = [[0] * (n + 2) for _ in range(n + 2)]
+        val = [1] + nums + [1]
+
+        for i in range(n - 1, -1, -1):
+            for j in range(i + 2, n + 2):
+                for k in range(i + 1, j):
+                    total = val[i] * val[k] * val[j]
+                    total += rec[i][k] + rec[k][j]
+                    rec[i][j] = max(rec[i][j], total)
+
+        return rec[0][n + 1]
+
+
+
 
 if __name__ == '__main__':
-    nums = [3,1,5,8]
+    nums = [3, 1, 5, 8]
 
     solution = Solution()
     print(solution.maxCoins(nums))
