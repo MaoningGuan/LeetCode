@@ -8,7 +8,7 @@ from functools import wraps
 
 def print_run_time(func):
     @wraps(func)
-    def wraper(*args, **kwargs):
+    def wrapper(*args, **kwargs):
         start = time.time()
         result = func(*args, **kwargs)
         end = time.time()
@@ -16,7 +16,7 @@ def print_run_time(func):
         print('Execute time of %s is: %s seconds.' % (func.__name__, duration_time))
         return result
 
-    return wraper
+    return wrapper
 
 
 @print_run_time
