@@ -21,6 +21,13 @@ from typing import List
 
 class Solution:
     def maxArea(self, height: List[int]) -> int:
+        """
+        方法：双指针
+        时间复杂度：O(N)，双指针总计最多遍历整个数组一次。
+        空间复杂度：O(1)，只需要额外的常数级别的空间。
+        :param height:
+        :return:
+        """
         l, r = 0, len(height) - 1
         ans = 0
         while l < r:
