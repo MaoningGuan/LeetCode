@@ -32,3 +32,38 @@ candidates 中的数字可以无限制重复被选取。
 candidate 中的每个元素都是独一无二的。
 1 <= target <= 500
 """
+from typing import List
+
+
+class Solution:
+    def combinationSum(self, candidates: List[int], target: int) -> List[List[int]]:
+        """
+        对于这类寻找所有可行解的题，我们都可以尝试用「搜索回溯」的方法来解决。
+        方法：使用递归来实现回溯法
+        :param candidates:
+        :param target:
+        :return:
+        """
+        ans = []
+        temp = []
+
+        def recursion(idx, res):
+            if idx >= len(candidates) or res >= target:
+                if res == target:
+                    ans.append(temp[:])
+                return
+            temp.append(candidates[idx])
+            recursion(idx, res + candidates[idx])  # 选择使用第 idx 个数
+            temp.pop()
+            recursion(idx + 1, res)  # 选择跳过不用第 idx 个数
+
+        recursion(0, 0)
+        return ans
+
+
+if __name__ == '__main__':
+    candidates = [2, 3, 5]
+    target = 8
+
+    solution = Solution()
+    print(solution.combinationSum(candidates, target))
