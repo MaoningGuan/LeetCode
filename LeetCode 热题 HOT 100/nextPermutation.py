@@ -18,6 +18,9 @@ from typing import List
 class Solution:
     def nextPermutation(self, nums: List[int]) -> None:
         """
+        方法：一遍扫描
+        时间复杂度：O(n)，在最坏的情况下，只需要对整个数组进行两次扫描。
+        空间复杂度：O(1)，没有使用额外的空间，原地替换足以做到。
         Do not return anything, modify nums in-place instead.
         """
         i = len(nums) - 2
