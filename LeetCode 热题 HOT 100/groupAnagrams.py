@@ -41,6 +41,12 @@ class Solution:
         return list(ans.values())
 
     def groupAnagrams_2(self, strs: List[str]) -> List[List[str]]:
+        """
+        时间复杂度：O(NK)
+        空间复杂度：O(NK)
+        :param strs:
+        :return:
+        """
         ans = collections.defaultdict(list)
         for s in strs:
             count = [0] * 26
